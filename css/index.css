@@ -228,3 +228,47 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*About*/
+.about-page .banner {
+    background: url('../img/jumbo-about.png') no-repeat center;
+}
+.about-content {
+    width: 100%;
+    padding: 0 20px 20px;
+    border-bottom: 1px dashed black;
+}
+.strategy {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.strategy .card {
+    flex: 1 1 50%;
+    padding: 0 15px;
+    margin: 30px 0;
+}
+.strategy .card .card-content {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.strategy .card img {
+    display: block;
+    width: 100%;
+}
+.strategy .card h2 {
+    margin: 13px 0 15px;
+}
+.strategy .card p {
+    margin-bottom: 20px;
+}
+.button {
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px 23px;
+    color: #000;
+}
+.work-together {
+    padding: 20px;
+    margin-bottom: 20px;
+}
